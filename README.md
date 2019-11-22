@@ -1,2 +1,1 @@
 # takushokuZoukei.github.io
-hoge
