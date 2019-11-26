@@ -1,3 +1,1 @@
-# takushokuZoukei.github.io
-
-test
+https://takushokuzoukei.github.io/
