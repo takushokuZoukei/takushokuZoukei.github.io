@@ -1,0 +1,240 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  position: relative;
+  position: fixed;
+  z-index: 10;
+}
+
+.midashiBox {
+  position: relative;
+}
+
+#mainImg {
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  width: 1920px;
+  height: 755px;
+  background: transparent url('img/Paper_Cut_Out_effect.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.square {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 218px;
+
+  background:
+  transparent linear-gradient(90deg, #000000 0%, #1C1C1CC6 54%, #0000005E 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#zokeiLogo {
+  position: absolute;
+  top: 33px;
+  left: 52px;
+  width: 152px;
+  height: 152px;
+  background: transparent url('img/zokei_rogo14.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#mainTitle {
+  /*Google Fonts設定*/
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 60px;
+
+  position: absolute;
+  top: 61px;
+  left: 236px;
+  width: 478px;
+  height: 96px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#About {
+  /*Google Fonts設定*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+
+  position: absolute;
+  top: 129px;
+  left: 795px;
+  width: 216px;
+  height: 74px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#Activity {
+  /*Google Fonts設定*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+
+  position: absolute;
+  top: 129px;
+  left: 1074px;
+  width: 216px;
+  height: 74px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#QandA {
+  /*Google Fonts設定*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+
+  position: absolute;
+  top: 129px;
+  left: 1387px;
+  width: 142px;
+  height: 74px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#Link {
+  /*Google Fonts設定*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+
+  position: absolute;
+  top: 129px;
+  left: 1667px;
+  width: 142px;
+  height: 74px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+h1 {
+  position: absolute;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.midashiAboutSphere {
+  position: absolute;
+  top: 822px;
+  left: 193px;
+  width: 1461px;
+  height: 100px;
+  background: #85272E 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 10px #00000099;
+  opacity: 1;
+}
+
+#midashiAbout {
+  top: 822px;
+  left: 226px;
+  width: 209px;
+  height: 85px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#index {
+  position: absolute;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 30px;
+  top: 952px;
+  left: 193px;
+  width: 1461px;
+  height: 259px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.midashi活動場所Sphere {
+  position: absolute;
+  top: 1268px;
+  left: 193px;
+  width: 1461px;
+  height: 100px;
+  background: #85272E 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 10px #00000099;
+  opacity: 1;
+}
+
+#midashi活動場所 {
+  top: 1268px;
+  left: 226px;
+  width: 290px;
+  height: 85px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#place {
+  position: absolute;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 30px;
+  top: 1399px;
+  left: 193px;
+  width: 350px;
+  height: 42px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.footerSquare {
+  position: absolute;
+  top: 1884px;
+  left: -2px;
+  width: 1922px;
+  height: 109px;
+  background: #414141 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+#copyright {
+  position: absolute;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 30px;
+  top: 1909px;
+  left: 707px;
+  width: 505px;
+  height: 59px;
+
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
