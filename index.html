@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <!--css呼び出し-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--Google Fonts呼び出し-->
-    <!--後々フォント変える予定-->
-    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Noto+Sans+JP:700|Roboto+Condensed&display=swap" rel="stylesheet">
-    <!--エンコード指定-->
-    <meta charset="utf-8">
-    <title>造形美術研究会HP</title>
-  </head>
-
-
-  <body>
-    <header>
-      <!--重ねて表示する-->
-      <img id="mainImg" src="img/Paper_Cut_Out_effect.png" alt="メイン画像" title="画像">
-      <div class="box">
-        <div class="square"></div>
-        <img id="zokeiLogo" src="img/zokei_logo.png" alt="造美研ロゴ" title="ロゴ">
-        <a id="mainTitle">造形美術研究会</a>
-        <a id="About">About</a>
-        <a id="Activity">Activity</a>
-        <a id="QandA">Q&A</a>
-        <a id="Link">Link</a>
-      </div>
-    </header>
-
-    <div class="midashiBox">
-      <div class="midashiAboutSphere"></div>
-      <h1 id="midashiAbout">About</h1>
-    </div>
-    <a id="index">
-      電子工作やデザインを主な活動内容としている研究会です。
-      みんなで集まって何かを作ることもありますが、ここの活
-      動に重きを置いた活動形式をとっており、活動日以外にも
-      個人的に制作物を作る会員が多いことが当研究会の特徴で
-      す。ネット上に活動報告もしていますのでそちらもぜひご
-      参照ください。Arduinoを使った電子工作、Illustrator
-      で作ったポスターなど詳細な制作物を公開しています。
-    </a>
-
-    <div class="midashiBox">
-      <div class="midashi活動場所Sphere"></div>
-      <h1 id="midashi活動場所">活動場所</h1>
-    </div>
-    <a id="place">学生交流会館 439号室　</a>
-
-
-    <footer>
-      <div class="footerSquare"></div>
-      <a id="copyright">©2019 拓殖大学造形美術研究会</a>
-    </footer>
-
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>造形美術研究会</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <img id="headerImg" src="img/topImage_1.png" alt="メイン画像">
+        <header>
+            <h1 id="mainTitle"><img src="img/zokei_logo.png" alt="造美研ロゴ">造形美術研究会</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#link">Link</a></li>
+                    <li><a href="#activity">Activity</a></li>
+                    <li><a href="#QandA">Q&A</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="midashi" id="about">About</h1>
+            <!-- コメントアウトは改行による半角スペースの挿入を防ぐため -->
+            <div class="text">
+                電子工作やデザインを主な活動内容としている研究会です。<br>
+                みんなで集まって何かを作ることもありますが、ここの活<!--
+                -->動に重きを置いた活動形式をとっており、活動日以外にも<!--
+                -->個人的に制作物を作る会員が多いことが当研究会の特徴で<!--
+                -->す。<br>
+                ネット上に活動報告もしていますので、<!--
+                -->ぜひ<a href="#link">そちら</a>もご<!--
+                -->参照ください。Arduinoを使った電子工作、Illustrator<!--
+                -->で作ったポスターなど詳細な制作物を公開しています。
+            </div>
+            <h2 class="midashi">活動場所</h2>
+            <div class="text">
+                学生交流会館 439号室
+            </div>
+            <h1 class="midashi" id="link">Link</h1>
+            <div class="icon">
+                <a href="https://twitter.com/zokeibijutsu"><img src="./img/TwitterIcon.png" alt="twitter"></a>
+                <a href="https://github.com/takushokuZoukei"><img src="./img/githubIcon.png" alt="twitter"></a>
+            </div>
+            <h1 class="midashi" id="activity">Activity</h1>
+            <div style="text-align:center;"><a class="twitter-timeline" data-chrome="nofooter" data-width="60vw" data-height="120vh" data-theme="light" href="https://twitter.com/zokeibijutsu?ref_src=twsrc%5Etfw">Tweets by zokeibijutsu</a></div>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h1 class="midashi" id="QandA">Q&A</h1>
+            <div class="text">
+                <p>Q1,何をする研究会ですか？</p>
+                <p>A1,基本的には"造形"ですので手先を動かして何かを作っています。</p>
+                <p>
+                    今所属している会員は主に電子工作やプログラム、自作フォントを制作しています。
+                    最近ではアマチュア無線の勉強をしている会員もおり、2019年度には2名合格、取得しています。
+                </p>
+                <p>Q2,活動内容に対して予備知識がないのですが......？</p>
+                <p>A2,教えますので心配はいりません。</p>
+                <p>
+                    電子工作の場合ですが、ワークショップを開催していますのでそこで簡単な電子工作をしてもらい、
+                    そこから興味関心を広げていってもらう予定です。
+                </p>
+                <p>そこまで根つめてやることはないので、気軽な気持ちで入会してくださって全く問題ありません。</p>
+                <p>Q3,家が遠い......活動日は？</p>
+                <p>A3,現在、授業期間中に強制的な活動日は設けていません。</p>
+                <p>ただ、各会員各々で空いた時間に会室に訪れています。昼食をとっている会員もいますよ。</p>
+            </div>
+        </main>
+        <footer>
+            <p id="copyright">©造形美術研究会 All rights reserved.</p>
+        </footer>
+    </body>
 </html>

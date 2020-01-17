@@ -1,0 +1,116 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* header */
+
+#headerImg {
+    width: 100vw;
+    height: auto;
+}
+
+header {
+    position: -webkit-sticky; /* Safariに対応 */
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    background: transparent linear-gradient(90deg, #000000 0%, #1C1C1CC6 54%, #0000005E 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 10;
+    color: white;
+}
+
+#mainTitle {
+    margin-top: 3vw;
+    font-size: 7vmin;
+}
+
+#mainTitle img {
+    margin-left: 3vw;
+    width: 10vw;
+    height: auto;
+    vertical-align: middle;
+}
+
+header nav {
+    float: right;
+    margin: 3vmin;
+}
+
+header nav li {
+    display: block;
+    margin: 3vmin;
+    float: left;
+    font-size: 4vmin;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav li a:visited {
+    color: white;
+}
+
+header nav li a:hover {
+    color: orange;
+}
+
+.selectMenu{
+    font-weight: bold;
+    pointer-events: none;
+    color: yellow;
+}
+
+/* body */
+
+.midashi {
+    width: 80vw;
+    height: auto;
+    background: #85272E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+    padding-left: 2vmin;
+    font-size: 5vmin;
+    text-align: left;
+    letter-spacing: 0;
+    color: white;
+}
+
+.text {
+    width: 75vw;
+    height: auto;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    font-size: 3vh;
+    text-align: left;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 10vw;
+    height: auto;
+    margin-right: 5px; 
+}
+
+/* footer */
+
+footer {
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    margin-top: 5vh;
+    background: #414141 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 3vmin;
+    text-align: center;
+    letter-spacing: 0;
+    color: white;
+}
