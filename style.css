@@ -75,7 +75,6 @@ header nav li a:hover {
     margin-top: 3vmin;
     margin-bottom: 3vmin;
     padding-left: 2vmin;
-    font-size: 5vmin;
     text-align: left;
     letter-spacing: 0;
     color: white;
@@ -86,7 +85,6 @@ header nav li a:hover {
     height: auto;
     margin-top: 2vmin;
     margin-bottom: 2vmin;
-    font-size: 3vh;
     text-align: left;
 }
 
@@ -95,9 +93,17 @@ header nav li a:hover {
 }
 
 .icon img {
-    width: 10vw;
+    width: 7rem;
     height: auto;
     margin-right: 5px; 
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie video {
+    width: 50%;
 }
 
 /* footer */
